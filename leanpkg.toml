@@ -1,0 +1,8 @@
+[package]
+name = "AAT-formal"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.24.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "3f3596125040d4fca6776621bfcb622030fae203"}
